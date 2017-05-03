@@ -11,6 +11,14 @@
            remote="aosp"
            sync-j="4" />
 
+  <default remote="laos"
+           fetch="https://github.com/LineageOS/"
+           revision="cm-14.1" />
+  
+  <default remote="fh"
+           fetch="https://github.com/FireHound-CAF/"
+           revision="7.1" />
+
   <!-- AOSP packages -->
   <include name="snippets/aosp.xml" />
 

@@ -4,18 +4,18 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote name="github"
+  <remote  name="github"
            fetch="https://github.com/" />
 
   <default revision="refs/tags/android-7.1.2_r9"
            remote="aosp"
            sync-j="4" />
 
-  <default remote="laos"
+  <remote  name="laos"
            fetch="https://github.com/LineageOS/"
            revision="cm-14.1" />
   
-  <default remote="fh"
+  <remote  name="fh"
            fetch="https://github.com/FireHound-CAF/"
            revision="7.1" />
 
